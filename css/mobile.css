@@ -59,4 +59,8 @@
     .l-heading {
         font-size: 2rem;
     }
+
+    #main-footer .footer-container ul{
+        padding-left: 40px;
+    }
 }
