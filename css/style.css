@@ -161,6 +161,19 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color) !important;
 }
 
+/* Inner Page Grid Container */
+.page-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2rem 0;
+    gap: 1.5rem
+}
+
+/* Makes About Content and Sidebar different heights */
+.page-container > *:first-child {
+    grid-row: 1 / span 3;
+}
+
 /* Navigation */
 #main-nav {
     background: #fff;
@@ -285,6 +298,9 @@ h1, h2, h3, h4, h5, h6 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 #main-footer .footer-container > *:last-child {
@@ -303,4 +319,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-footer .footer-container input[type='submit'] {
     width: 90%;;
+}
+
+#main-footer .footer-container ul {
+    align-items: center;
 }
