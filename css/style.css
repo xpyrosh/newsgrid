@@ -315,8 +315,6 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
     text-align: center;
-    /* align-items: center; */
-    justify-content: center;
 }
 
 #main-footer .footer-container > *:last-child {
@@ -337,6 +335,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 90%;;
 }
 
-#main-footer .footer-container ul {
-    align-items: center;
+#main-footer .footer-container ul{
+    text-align: center;
+    padding-left: 20px;
 }
